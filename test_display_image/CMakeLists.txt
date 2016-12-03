@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 2.8)
+project( DisplayImageTutorial )
+find_package( OpenCV REQUIRED )
+add_executable( DisplayImageTutorial DisplayImage_tutorial.cpp )
+target_link_libraries( DisplayImageTutorial ${OpenCV_LIBS} )
+include_directories(${OpenCV_INCLUDE_DIRS})

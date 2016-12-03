@@ -1,0 +1,1 @@
+/home/alex/diplwmatikh/test_display_image/CMakeFiles/DisplayImageTutorial.dir
